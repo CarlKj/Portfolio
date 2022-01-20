@@ -343,7 +343,7 @@ r #nav-main {
 #dot-selectors {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    /* gap: 32px; */
 }
 
 .project-text {
@@ -357,7 +357,7 @@ r #nav-main {
 
 .dot {
     width: 20px;
-    margin: 8px;
+    margin: 16px;
     height: 20px;
     border-radius: 100%;
     border: 2px solid var(--black);
@@ -389,6 +389,7 @@ r #nav-main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: -16px;
 }
 
 #arrow-left {
@@ -399,6 +400,7 @@ r #nav-main {
     transform: rotate(180deg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: -16px;
 }
 
 #arrow-left:hover,
