@@ -357,6 +357,7 @@ r #nav-main {
 
 .dot {
     width: 20px;
+    margin: 8px;
     height: 20px;
     border-radius: 100%;
     border: 2px solid var(--black);
